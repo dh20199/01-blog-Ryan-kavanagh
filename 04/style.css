@@ -80,28 +80,28 @@ article div section {
 
 /* use the grid-row and grid-column values to place the boxes precisely onto the grid */
 #box1 {
-    grid: 1 / span 2;
-    grid-column: 1 / span 2;
+    grid: 1 / 2;
+    grid-column: 1 / 2;
 }
 
 #box2 {
-    grid-row: 2 / span 1;
-    grid-column: 2 / span 1;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
 }
 
 #box3 {
-    grid-row: 3 / span 1;
-    grid-column: 3 / span 1;
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
 }
 
 #box4 {
-    grid-row: 4 / span 1;
-    grid-column: 4 / span 1;
+    grid-row: 4 / 5;
+    grid-column: 4 / 5;
 }
 
 #box5 {
-    grid-row: 1 / 1;
-    grid-column: 4 / 4;
+    grid-row: 1 / 2;
+    grid-column: 4 / 5;
     background-color: rgba(200,10,10,0.3);
     
 }
