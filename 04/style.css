@@ -38,7 +38,7 @@ section.sidebar {
     grid-area: side;
     display: float right; 
     flex-direction: column;
-    justify-content: center;           /*these last two are optional*/
+    justify-content: space-evenly;           /*these last two are optional*/
     align-items: center;
 }
 
